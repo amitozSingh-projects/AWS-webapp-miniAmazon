@@ -1,0 +1,12 @@
+{
+  "resourceName": "purchases",
+  "tableName": "purchases",
+  "partitionKey": {
+    "fieldName": "orderID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "purchasesTriggera692ab82"
+  ]
+}

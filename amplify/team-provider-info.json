@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awswebappminiamazon-dev-225755-authRole",
+      "UnauthRoleArn": "arn:aws:iam::816361283788:role/amplify-awswebappminiamazon-dev-225755-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::816361283788:role/amplify-awswebappminiamazon-dev-225755-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-awswebappminiamazon-dev-225755-deployment",
+      "UnauthRoleName": "amplify-awswebappminiamazon-dev-225755-unauthRole",
+      "StackName": "amplify-awswebappminiamazon-dev-225755",
+      "StackId": "arn:aws:cloudformation:eu-north-1:816361283788:stack/amplify-awswebappminiamazon-dev-225755/9454b6a0-3dec-11ee-856b-0a28ea0cafa2",
+      "AmplifyAppId": "dmn34v4ta1mt7"
+    },
+    "categories": {
+      "auth": {
+        "awswebappminiamazon4ab1ae3e": {}
+      },
+      "function": {
+        "purchasesTriggera692ab82": {
+          "deploymentBucketName": "amplify-awswebappminiamazon-dev-225755-deployment",
+          "s3Key": "amplify-builds/purchasesTriggera692ab82-2b344c32513944584b75-build.zip"
+        }
+      },
+      "api": {
+        "awswebappminiamazon": {}
+      },
+      "storage": {
+        "purchases": {}
+      }
+    }
+  }
+}
