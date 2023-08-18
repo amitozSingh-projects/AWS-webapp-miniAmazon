@@ -6,6 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
+    padding-bottom: 60px; /* Added padding for dynamic footer */
 }
 
 /* Header Styles */
@@ -37,33 +38,36 @@ nav li a {
 }
 
 /* Section Styles */
-section {
+section#products {
     margin: 20px;
+    text-align: center; /* Center-align the products */
 }
 
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* Product List Styles */
-ul.products {
+.product-list {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
 }
 
-ul.products li {
+.product {
     width: calc(33.33% - 20px);
-    margin: 10px;
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
 }
 
-ul.products img {
+.product img {
     max-width: 100%;
     height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product p {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 /* Footer Styles */
@@ -72,7 +76,8 @@ footer {
     background-color: #333;
     color: white;
     padding: 10px;
-    position: absolute;
+    position: fixed; /* Position the footer at the bottom of the viewport */
     bottom: 0;
     width: 100%;
+    height: 50px; /* Set a fixed height for the footer */
 }
